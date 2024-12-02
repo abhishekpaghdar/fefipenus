@@ -1,0 +1,149 @@
+/* General Reset */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Arial, sans-serif;
+}
+
+/* Contact Us Section */
+.contact-us {
+    padding: 2rem;
+    background-color: #f9f9f9;
+}
+
+.contact-info {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 2rem;
+    flex-wrap: wrap;
+    gap: 1rem;
+    margin-top: 6rem;
+}
+
+.contact-info .box {
+    flex: 1 1 30%;
+    background-color: #fff;
+    padding: 1rem;
+    border-radius: 10px;
+    text-align: center;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    position: relative;
+    transition: transform 0.3s, box-shadow 0.3s;
+}
+
+.contact-info .box:hover {
+    transform: translateY(-5px);
+    box-shadow: 0 6px 12px rgba(0, 0, 0, 0.2);
+}
+
+.contact-info .box i {
+    font-size: 2.5rem;
+    margin-bottom: 1rem;
+    color: #fff;
+    background-color: #333;
+    border-radius: 50%;
+    padding: 1rem;
+    display: inline-block;
+}
+
+.contact-info .email-box i {
+    background-color: #007bff;
+}
+
+.contact-info .phone-box i {
+    background-color: #28a745;
+}
+
+.contact-info .address-box i {
+    background-color: #ffc107;
+    padding: 15px 20px;
+}
+
+.contact-info .box h3 {
+    font-size: 1.2rem;
+    color: #333;
+    margin-bottom: 0.5rem;
+}
+
+.contact-info .box p {
+    font-size: 1rem;
+    color: #555;
+}
+
+/* Contact Form */
+.contact-form {
+    background-color: #fff;
+    padding: 2rem;
+    border-radius: 10px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    max-width: 600px;
+    margin: auto;
+}
+
+.contact-form h2 {
+    font-size: 2rem;
+    color: #333;
+    margin-bottom: 1rem;
+    text-align: center;
+}
+
+.contact-form form label {
+    font-size: 1rem;
+    color: #555;
+    margin-bottom: 0.5rem;
+    display: block;
+}
+
+.contact-form form input, .contact-form form textarea {
+    width: 100%;
+    padding: 0.8rem;
+    margin-bottom: 1rem;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    font-size: 1rem;
+}
+
+.contact-form form button {
+    width: 100%;
+    padding: 0.8rem;
+    background-color: #333;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    font-size: 1rem;
+    cursor: pointer;
+    transition: background-color 0.3s;
+}
+
+.contact-form form button:hover {
+    background-color: lightseagreen;
+}
+
+
+/* Responsive Styles */
+@media (max-width: 768px) {
+    .contact-info {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .contact-info .box {
+        width: 100%;
+        max-width: 300px;
+    }
+}
+
+@media (max-width: 480px) {
+    .contact-form h2 {
+        font-size: 1.5rem;
+    }
+
+    .contact-form form input, .contact-form form textarea {
+        font-size: 0.9rem;
+    }
+
+    .contact-form form button {
+        font-size: 0.9rem;
+    }
+}

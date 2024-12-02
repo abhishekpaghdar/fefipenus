@@ -1,0 +1,17 @@
+Mounting the Wheel and Tire Assembly
+The wheel and tire are mounted on a specialized road force balancing machine, which applies pressure to the tire using a roller to simulate the force of the road against it.
+
+Simulating Road Conditions
+The machine spins the wheel and presses the roller against the tire to mimic real-world driving conditions. This helps detect variations in stiffness across the tire surface, which can cause vibrations that normal balancing might miss.
+
+Measuring Force Variation
+The machine measures “road force,” or variations in pressure that the tire exerts as it rotates under load. These variations can result from tire or wheel imperfections, like a slightly uneven tire surface or a wheel that is not perfectly round.
+
+Identifying Optimal Placement
+Based on the measurements, the machine suggests adjustments, such as rotating the tire on the wheel to match high and low spots (known as "match mounting") to reduce vibration.
+
+Adding or Adjusting Weights
+After the tire is optimally positioned on the wheel, the technician may add small balancing weights to fine-tune the balance further.
+
+Final Testing
+Once adjustments are complete, the machine retests to ensure that the road force is within acceptable limits and that the tire assembly is balanced for a smooth ride.
